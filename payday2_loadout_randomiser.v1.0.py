@@ -159,14 +159,14 @@ while True:
     #Current Level Input
     current_level = input("Current Level: ")
     current_level = int(current_level)
-    print(rep_req_0_scnd_spec)
+    #print(rep_req_0_scnd_spec)
     #Portable Saw Skill Input
     while True:
         try:
             port_saw_skl = input("\nIs the Portable Saw skill active?: ").lower()
             if port_saw_skl == "yes" or "y" :
                 rep_req_0_scnd_spec + ["OVE9000"] #Add counter to stop multiple adds?
-                print(rep_req_0_scnd_spec)
+                #print(rep_req_0_scnd_spec)
                 break
             print("Please input a valid answer")
         except Exception as e:
